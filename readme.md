@@ -281,7 +281,3 @@ Dengan desain ini, sistem dapat digunakan baik untuk kebutuhan aplikasi web maup
 ## Kesimpulan
 
 Mini Payment App adalah sistem wallet berbasis Laravel dengan arsitektur modular dan polymorphic design yang siap dikembangkan menjadi lebih kompleks.
-
-```
-
-```
