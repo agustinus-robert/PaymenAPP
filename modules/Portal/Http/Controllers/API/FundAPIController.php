@@ -21,8 +21,11 @@ class FundAPIController extends Controller
     public function index(Request $request): JsonResponse
     {
         $perPage = $request->query('per_page', 15);
-        $balances = UserBalance::with(['user', 'logs'])
+        $balances = UserBalance::with(['logs' => function($query) {
+                $query->latest();
+             }, 'user'])
             ->where('user_balance_id', auth()->id())
+            ->whereHas('logs')
             ->latest()
             ->paginate($perPage);
 

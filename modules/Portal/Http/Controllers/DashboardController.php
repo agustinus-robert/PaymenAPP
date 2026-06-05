@@ -57,8 +57,10 @@ class DashboardController extends Controller
             $transactionQuery->whereDate('created_at', '<=', $date);
         }
 
-        $balances = $balanceQuery->orderBy('created_at', 'desc')->get();
-        $transactions = $transactionQuery->orderBy('created_at', 'desc')->get();
+        $perPage = $request->query('per_page', 15);
+
+        $balances = $balanceQuery->orderBy('created_at', 'desc')->paginate($perPage, ['*'], 'page_balance');
+        $transactions = $transactionQuery->orderBy('created_at', 'desc')->paginate($perPage, ['*'], 'page_transaction');
 
         return view('portal::dashboard', compact('user', 'balances', 'transactions'));
     }

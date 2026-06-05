@@ -33,6 +33,7 @@ class PayController extends Controller {
             ->where('sender_id', auth()->id())
             ->orWhere('receiver_id', auth()->id())
             ->latest()
+            ->take(5)
             ->get();
 
         $customers = User::where('id', '!=', auth()->id())

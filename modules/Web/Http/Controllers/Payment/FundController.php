@@ -34,6 +34,7 @@ class FundController extends Controller {
             ->where('user_balance_id', auth()->id())
             ->whereHas('logs')
             ->latest()
+            ->take(5)
             ->get();
 
         $allSections = [

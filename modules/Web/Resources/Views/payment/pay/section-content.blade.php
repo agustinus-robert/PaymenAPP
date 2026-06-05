@@ -74,11 +74,14 @@
                 <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom border-light">
                     <div class="d-flex align-items-center gap-2">
                         <i class="fas fa-history text-dark fs-5"></i>
-                        <h2 class="h6 mb-0 fw-bold text-dark text-uppercase tracking-wider">Aktivitas Transaksi antar nasabah</h2>
+                        <div>
+                            <h2 class="h6 mb-0 fw-bold text-dark text-uppercase tracking-wider">Aktivitas Transaksi antar nasabah</h2>
+                            <small class="text-muted d-block font-size-12">ambil 5 data terakhir</small>
+                        </div>
                     </div>
                 </div>
 
-                <div class="list-group list-group-flush" id="transactionHistory" style="max-height: 430px; overflow-y: auto; padding-right: 5px;">
+                <div class="list-group list-group-flush" id="transactionHistory" style="max-height: 400px; overflow-y: auto; padding-right: 5px;">
                     @forelse($activities as $activity)
                         @php
                             $isSender = $activity->sender_id === auth()->id();

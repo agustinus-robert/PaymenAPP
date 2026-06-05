@@ -24,6 +24,7 @@
                 <div class="row">
                     <div class="col-12">
                         <form method="GET" action="" class="bg-light p-3 rounded-3 mb-4">
+                            <input type="hidden" name="tab" value="{{ request('tab', 'mutasi') }}">
                             <div class="row g-3">
                                 <div class="col-md-5">
                                     <label class="form-label small fw-bold text-muted">Mulai Tanggal</label>
@@ -47,21 +48,25 @@
                             <div class="card-body">
                                 <h4 class="card-title mb-3">Logs Riwayat Aktivitas</h4>
 
+                                @php
+                                    $activeTab = request('tab', 'mutasi');
+                                @endphp
+
                                 <ul class="nav nav-tabs nav-tabs-custom nav-justified" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active" data-bs-toggle="tab" href="#mutasi-saldo" role="tab">
+                                        <a class="nav-link {{ $activeTab === 'mutasi' ? 'active' : '' }}" href="{{ request()->fullUrlWithQuery(['tab' => 'mutasi']) }}">
                                             <span class="fw-bold"><i class="bx bx-wallet-quarter me-1"></i> Mutasi Dana (Top Up / WD)</span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" data-bs-toggle="tab" href="#pembayaran-nasabah" role="tab">
+                                        <a class="nav-link {{ $activeTab === 'transaksi' ? 'active' : '' }}" href="{{ request()->fullUrlWithQuery(['tab' => 'transaksi']) }}">
                                             <span class="fw-bold"><i class="bx bx-transfer-alt me-1"></i> Transaksi Antar Nasabah</span>
                                         </a>
                                     </li>
                                 </ul>
 
                                 <div class="tab-content p-3 text-muted">
-                                    <div class="tab-pane active" id="mutasi-saldo" role="tabpanel">
+                                    <div class="tab-pane {{ $activeTab === 'mutasi' ? 'active' : '' }}" id="mutasi-saldo" role="tabpanel">
                                         <div class="table-responsive" style="max-height: 320px; overflow-y: auto;" id="scrollMutasi">
                                             <table class="table table-hover table-nowrap mb-0 align-middle">
                                                 <thead class="table-light sticky-top">
@@ -97,9 +102,12 @@
                                                 </tbody>
                                             </table>
                                         </div>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            {{ $balances->withQueryString()->links() }}
+                                        </div>
                                     </div>
 
-                                    <div class="tab-pane" id="pembayaran-nasabah" role="tabpanel">
+                                    <div class="tab-pane {{ $activeTab === 'transaksi' ? 'active' : '' }}" id="pembayaran-nasabah" role="tabpanel">
                                         <div class="table-responsive" style="max-height: 320px; overflow-y: auto;" id="scrollPembayaran">
                                             <table class="table table-hover table-nowrap mb-0 align-middle">
                                                 <thead class="table-light sticky-top">
@@ -140,6 +148,9 @@
                                                     @endforelse
                                                 </tbody>
                                             </table>
+                                        </div>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            {{ $transactions->withQueryString()->links() }}
                                         </div>
                                     </div>
                                 </div>
@@ -244,7 +255,6 @@
                         a = {
                             labels: ["Total Mutasi Saldo", "Total Transaksi Nasabah"],
                             datasets: [{
-                                // Mengambil data penjumlahan nominal langsung dari laravel collection secara dinamis
                                 data: [{{ $balances->sum('amount') }}, {{ $transactions->sum('amount') }}],
                                 backgroundColor: n,
                                 hoverBackgroundColor: n,
@@ -256,7 +266,7 @@
                             maintainAspectRatio: false,
                             plugins: {
                                 legend: {
-                                    display: false // dimatikan karena diganti dengan legenda kustom di bagian bawah agar lebih rapi
+                                    display: false
                                 }
                             }
                         });

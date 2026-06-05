@@ -70,11 +70,14 @@
                 <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom border-light flex-shrink-0">
                     <div class="d-flex align-items-center gap-2">
                         <i class="fas fa-history text-dark fs-5"></i>
-                        <h2 class="h6 mb-0 fw-bold text-dark text-uppercase tracking-wider">Riwayat Mutasi Anda</h2>
+                        <div>
+                            <h2 class="h6 mb-0 fw-bold text-dark text-uppercase tracking-wider">Riwayat Mutasi Anda</h2>
+                            <small class="text-muted d-block font-size-12">ambil 5 data terakhir</small>
+                        </div>
                     </div>
                 </div>
 
-                <div class="flex-grow-1 overflow-y-auto pe-2" style="height: 0; min-height: 380px;">
+                <div class="flex-grow-1 overflow-y-auto pe-2" style="height: 0; min-height: 358px;">
                     <div class="list-group list-group-flush" id="transactionHistory">
                         @forelse($activities as $activity)
                             @php
