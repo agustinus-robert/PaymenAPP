@@ -1,0 +1,25 @@
+[
+  {
+    "///": "These are JSON pages for layout 1. This comment provides context for the data structure below.",
+    "id": "1",
+    "pages": [
+      {
+        "id": "1",
+        "layoutId": "1",
+        "title": "Page #1",
+        "thumbnailWidth": 300,
+        "thumbnailHeight": 500,
+        "thumbnailSrc": "/no_image_placeholder.svg"
+      }
+    ],
+    "styles": [
+      {
+        "id": "1",
+        "layoutId": "1",
+        "title": "Style #1",
+        "fontStyles": [],
+        "colorPalette": []
+      }
+    ]
+  }
+]

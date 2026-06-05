@@ -1,0 +1,23 @@
+{
+  "///": "These are JSON metadata for all layouts. This comment provides context for the data structure below.",
+  "categories": [
+    {
+      "id": "1",
+      "title": "Category #1"
+    }
+  ],
+  "templates": [
+    {
+      "layoutId": "1",
+      "name": "Layout #1",
+      "cat": ["1"],
+      "pagesCount": 1,
+      "keywords": "forms, hero, image, free",
+      "thumbnailWidth": 300,
+      "thumbnailHeight": 500,
+      "thumbnailSrc": "/no_image_placeholder.svg",
+      "blank": false,
+      "pro": false
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+// Sidebar
+
+// Your code here ...
+.sidebar {
+	min-width: $sidebar-width;
+	width: $sidebar-width;
+	min-height: 100vh;
+	height: 100vh;
+	overflow-x: none;
+	overflow-y: auto;
+	position: fixed;
+	margin-left: -$sidebar-width;
+	display: flex;
+	flex-direction: column;
+	&:not(.offcanvas) {
+		transition: margin-left .3s;
+	}
+	.sidebar-body {
+		transition: opacity .3s;
+		flex-grow: 1;
+		opacity: 0;
+		.sidebar-body-menu {
+			width: 100%;
+			list-style: none;
+			padding-left: 0;
+		}
+	}
+	.sidebar-footer {
+		padding: 1rem;
+	}
+	+ {
+		div.content {
+			transition: margin-left .3s;
+			margin-left: 0px;
+		}
+	}
+	.sidebar-body-menu {
+		.btn-apps {
+			color: inherit;
+			padding: 1rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			border-radius: $border-radius-lg;
+			width: 100%;
+			i:first-child {
+				padding: .75rem;
+				font-size: 1.25rem;
+				background: $sidebar-nav-icon-bg;
+				border-radius: $border-radius-lg;
+				margin-bottom: .25rem;
+			}
+			&:hover {
+				background: $sidebar-nav-icon-bg;
+				i:first-child {
+					background: rgba(255, 255, 255, .8);
+				}
+			}
+		}
+		li {
+			.submenu {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+		}
+		.nav-item {
+			margin: $sidebar-nav-item-margin-y $sidebar-nav-item-margin-x;
+			&.active {
+				color: $sidebar-color-hover-active;
+				i {
+					color: $sidebar-color-hover-active;
+				}
+			}
+		}
+		.nav-link {
+			padding: $sidebar-nav-link-padding-y $sidebar-nav-link-padding-x;
+			border-radius: $border-radius;
+			display: flex;
+			align-items: center;
+			font-weight: 500;
+			color: inherit;
+			i {
+				color: $secondary;
+				&:first-child {
+					background: $gray-100;
+					color: $sidebar-nav-icon-color;
+					padding: .5rem;
+					border-radius: $border-radius;
+					text-align: center;
+					margin-right: .75rem;
+				}
+			}
+			&:hover {
+				background: $sidebar-nav-icon-bg;
+				color: $sidebar-color-hover-active;
+				i {
+					color: $sidebar-color-hover-active;
+					background: $white;
+				}
+			}
+		}
+		.nav-item.has-submenu {
+			.nav-link {
+				&:not(i) {
+					flex-grow: 1;
+				}
+			}
+			&::before {
+				content: '\1F893';
+				position: absolute;
+				margin-top: 1rem;
+				right: 1.25rem;
+			}
+			.submenu {
+				.nav-link {
+					padding-left: 3rem;
+				}
+			}
+		}
+		.divider {
+			padding: .75rem 1rem .75rem 1.5rem;
+			border-radius: $border-radius;
+			font-weight: bold;
+			font-size: 80%;
+			text-transform: uppercase;
+			color: rgba(150, 150, 150, .6);
+		}
+	}
+	&.bg-dark {
+		.sidebar-body-menu {
+			.nav-item {
+				.nav-link {
+					color: $gray-400;
+					&:hover {
+						color: inherit;
+						i {
+							color: $sidebar-color-hover-active;
+						}
+					}
+					i {
+						color: $gray-100;
+						&:first-child {
+							background: $gray-800;
+						}
+					}
+				}
+				&.active {
+					.nav-link {
+						color: $sidebar-color-hover-active;
+					}
+				}
+			}
+		}
+	}
+}
+.sidebar.open {
+	margin-left: 0;
+	visibility: visible !important;
+	.sidebar-body {
+		opacity: 1;
+	}
+	&:not(.offcanvas) {
+		+ {
+			div.content {
+				margin-left: $sidebar-width;
+			}
+		}
+	}
+}

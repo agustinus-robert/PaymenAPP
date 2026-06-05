@@ -1,0 +1,12 @@
+// Utilities
+
+@import 'bootstrap/scss/functions';
+
+// Your code here
+$utilities: (
+	"bg-soft": (
+		property: background-color,
+		class: 'bg-soft',
+		values: map-loop($theme-colors, rgba, "$value", .2)
+	)
+);

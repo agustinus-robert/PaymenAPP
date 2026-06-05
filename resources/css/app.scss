@@ -1,0 +1,17 @@
+/**
+ * Here the sass that you've can customize, we provide Bootstrap v5.x as main scss theme
+ */
+
+// Load libraries
+@import "animate.css";
+
+// Override Bootstrap variables
+@import 'variables';
+@import 'utilities';
+
+// Bootstrap v5.x core css libraries
+@import 'bootstrap';
+
+// If you want to add something do it here
+@import 'sidebar';
+@import 'custom';

@@ -1,0 +1,64 @@
+// Custom
+
+// Your code here ...
+@each $color, $value in $grays {
+	.bg-gray-#{$color} {
+		background-color: $value;
+	}
+}
+
+@each $color, $value in $colors {
+	.bg-#{$color} {
+		background-color: $value !important;
+	}
+	.text-#{$color} {
+		color: $value !important;
+	}
+}
+
+@each $color, $value in $theme-colors {
+	.btn-soft-#{$color} {
+		color: shade-color($value, 10%);
+		background-color: rgba(tint-color($value, 20%), .2);
+		border: none;
+
+		&:hover, &:active {
+			color: shade-color($value, 10%);
+			background-color: rgba(tint-color($value, 20%), .4);
+		}
+	}
+
+	.btn-ghost-#{$color} {
+		color: $value;
+		background-color: transparent;
+
+		&:hover, &:active {
+			color: color-contrast($value);
+			background-color: $value;
+		}
+	}
+}
+
+hr {
+	color: $border-color;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(150, 150, 150, .3);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(150, 150, 150, .4);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(150, 150, 150, .6);
+}
+
+.btn {
+	&:focus, &:active {
+		box-shadow: none !important;
+	}
+}

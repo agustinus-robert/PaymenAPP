@@ -1,0 +1,46 @@
+[
+  {
+    "id": "block1",
+    "type": "base",
+    "kitId": "1",
+    "title": "block1light",
+    "keywords": "forms, hero,image",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 320,
+    "thumbnailSrc": "/no_image_placeholder.svg",
+    "cat": ["hero"]
+  },
+  {
+    "id": "block2",
+    "type": "base",
+    "kitId": "1",
+    "title": "block2light",
+    "keywords": "hero,video,background",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 320,
+    "thumbnailSrc": "/no_image_placeholder.svg",
+    "cat": ["hero", "free"]
+  },
+  {
+    "id": "block3",
+    "type": "base",
+    "kitId": "1",
+    "title": "block3light",
+    "keywords": "forms,hero,image",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 320,
+    "thumbnailSrc": "/no_image_placeholder.svg",
+    "cat": ["hero"]
+  },
+  {
+    "id": "block4",
+    "type": "base",
+    "kitId": "1",
+    "title": "block4light",
+    "keywords": "button,hero,image",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 320,
+    "thumbnailSrc": "/no_image_placeholder.svg",
+    "cat": ["hero", "free"]
+  }
+]

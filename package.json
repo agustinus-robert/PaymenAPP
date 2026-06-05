@@ -1,0 +1,61 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.26.3",
+        "@popperjs/core": "^2.10.2",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "axios": "^0.21",
+        "grapesjs-plugin-ckeditor5": "^0.0.33",
+        "grapesjs-rte-extensions": "^1.0.10",
+        "laravel-echo": "^2.3.4",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^3.1.0",
+        "pusher-js": "^8.5.0",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.43.3",
+        "sass-loader": "^12.1.0",
+        "ts-loader": "^9.5.2",
+        "typescript": "^5.8.2",
+        "webpack": "^5.96.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.1.0"
+    },
+    "dependencies": {
+        "@brizy/builder": "^1.0.12",
+        "@brizy/create-app": "^1.0.4",
+        "@fortawesome/fontawesome-free": "^7.2.0",
+        "@rolldown/binding-darwin-x64": "^1.0.0",
+        "@tailwindcss/vite": "^4.3.0",
+        "@usewaypoint/email-builder": "^0.0.8",
+        "animate.css": "^4.1.1",
+        "bootstrap": "^5.1.3",
+        "boxicons": "^2.0.9",
+        "chart.js": "^3.6.0",
+        "daisyui": "^4.12.14",
+        "gjs-quill": "^1.0.1",
+        "grapesjs": "^0.22.6",
+        "grapesjs-blocks-basic": "^1.0.2",
+        "grapesjs-blocks-flexbox": "^1.0.1",
+        "grapesjs-blocks-table": "^1.1.2",
+        "grapesjs-navbar": "^1.0.2",
+        "grapesjs-plugin-forms": "^2.0.6",
+        "grapesjs-plugin-toolbox": "^1.0.15",
+        "grapesjs-preset-newsletter": "^1.0.2",
+        "grapesjs-preset-webpage": "^1.0.3",
+        "grapesjs-tabs": "^1.0.6",
+        "grapesjs-tooltip": "^0.1.8",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.30.1",
+        "tailwindcss": "^4.3.0",
+        "tom-select": "^2.0.0-rc.4"
+    },
+    "optionalDependencies": {
+        "@rolldown/binding-darwin-arm64": "^1.0.0"
+    }
+}

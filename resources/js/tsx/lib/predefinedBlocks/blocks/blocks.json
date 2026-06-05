@@ -1,0 +1,910 @@
+[
+  {
+    "id": "block1",
+    "data": {
+      "blockId": "1",
+      "type": "Section2",
+      "value": {
+        "_id": "asdasdasd",
+        "items": [
+          {
+            "type": "Section2Item",
+            "value": {
+              "_id": "asdasdasd111",
+              "items": [
+                {
+                  "type": "Row2",
+                  "value": {
+                    "_styles": ["row", "hide-row-borders", "padding-0"],
+                    "items": [
+                      {
+                        "type": "Column2",
+                        "value": {
+                          "_styles": ["column"],
+                          "items": [
+                            {
+                              "type": "Wrapper2",
+                              "value": {
+                                "_styles": ["wrapper", "wrapper--third-party"],
+                                "items": [
+                                  {
+                                    "type": "ThirdParty",
+                                    "value": {
+                                      "thirdPartyId": "Brizy.ThirdParty.Text",
+                                      "_id": "x8gom1EZKmqr",
+                                      "text": "NEW DECO IDEAS",
+                                      "tabsState": "normal",
+                                      "colorHex": "#666666",
+                                      "colorOpacity": 1,
+                                      "colorPalette": "",
+                                      "tempColorOpacity": 1,
+                                      "tempColorPalette": "",
+                                      "typographyFontStyle": "",
+                                      "typographyFontFamily": "overpass",
+                                      "typographyFontFamilyType": "google",
+                                      "typographyFontSize": 13,
+                                      "typographyFontSizeSuffix": "px",
+                                      "typographyFontWeight": 700,
+                                      "typographyLetterSpacing": 1.1,
+                                      "typographyLineHeight": 1.5,
+                                      "typographyVariableFontWeight": 400,
+                                      "typographyFontWidth": 100,
+                                      "typographyFontSoftness": 0,
+                                      "typographyBold": false,
+                                      "typographyItalic": false,
+                                      "typographyUnderline": false,
+                                      "typographyStrike": false,
+                                      "typographyUppercase": false,
+                                      "typographyLowercase": false
+                                    }
+                                  }
+                                ],
+                                "_id": "yjFhKgTily9t",
+                                "horizontalAlign": "left"
+                              }
+                            },
+                            {
+                              "type": "Wrapper2",
+                              "value": {
+                                "_styles": ["wrapper", "wrapper--third-party"],
+                                "items": [
+                                  {
+                                    "type": "ThirdParty",
+                                    "value": {
+                                      "thirdPartyId": "Brizy.ThirdParty.Text",
+                                      "_id": "yveim1lCA8Fa",
+                                      "text": "Decorate For Less With Art Posters & Tasty Accesories",
+                                      "typographyFontStyle": "",
+                                      "typographyFontFamily": "overpass",
+                                      "typographyFontFamilyType": "google",
+                                      "typographyFontSize": 36,
+                                      "typographyFontSizeSuffix": "px",
+                                      "typographyFontWeight": 700,
+                                      "typographyLetterSpacing": -1.5,
+                                      "typographyLineHeight": 1.5,
+                                      "typographyVariableFontWeight": 400,
+                                      "typographyFontWidth": 100,
+                                      "typographyFontSoftness": 0,
+                                      "typographyBold": false,
+                                      "typographyItalic": false,
+                                      "typographyUnderline": false,
+                                      "typographyStrike": false,
+                                      "typographyUppercase": false,
+                                      "typographyLowercase": false,
+                                      "tabsState": "normal",
+                                      "colorHex": "#1C1C1C",
+                                      "colorOpacity": 1,
+                                      "colorPalette": "",
+                                      "tempColorOpacity": 1,
+                                      "tempColorPalette": ""
+                                    }
+                                  }
+                                ],
+                                "_id": "zxF3b4y2J_3m",
+                                "horizontalAlign": "left",
+                                "marginType": "ungrouped",
+                                "margin": 0,
+                                "tempMargin": 0,
+                                "marginSuffix": "px",
+                                "tempMarginSuffix": "px",
+                                "marginTop": 10,
+                                "tempMarginTop": 0,
+                                "marginTopSuffix": "px",
+                                "tempMarginTopSuffix": "px",
+                                "marginRight": 150,
+                                "tempMarginRight": 150,
+                                "marginRightSuffix": "px",
+                                "tempMarginRightSuffix": "px",
+                                "marginBottom": 10,
+                                "tempMarginBottom": 0,
+                                "marginBottomSuffix": "px",
+                                "tempMarginBottomSuffix": "px",
+                                "marginLeft": 0,
+                                "tempMarginLeft": 0,
+                                "marginLeftSuffix": "px",
+                                "tempMarginLeftSuffix": "px"
+                              }
+                            },
+                            {
+                              "type": "Wrapper2",
+                              "value": {
+                                "_styles": ["wrapper", "wrapper--third-party"],
+                                "items": [
+                                  {
+                                    "type": "ThirdParty",
+                                    "value": {
+                                      "thirdPartyId": "Brizy.ThirdParty.Text",
+                                      "_id": "cojNjj1Pa6Pe",
+                                      "text": "Differentiate and you stand out in a very crowded marketplace. Present your uniquen emphasize",
+                                      "tabsState": "normal",
+                                      "colorHex": "#666666",
+                                      "colorOpacity": 1,
+                                      "colorPalette": "",
+                                      "tempColorOpacity": 1,
+                                      "tempColorPalette": "",
+                                      "typographyFontStyle": "",
+                                      "typographyFontFamily": "overpass",
+                                      "typographyFontFamilyType": "google",
+                                      "typographyFontSize": 17,
+                                      "typographyFontSizeSuffix": "px",
+                                      "typographyFontWeight": 400,
+                                      "typographyLetterSpacing": 0,
+                                      "typographyLineHeight": 1.8,
+                                      "typographyVariableFontWeight": 400,
+                                      "typographyFontWidth": 100,
+                                      "typographyFontSoftness": 0,
+                                      "typographyBold": false,
+                                      "typographyItalic": false,
+                                      "typographyUnderline": false,
+                                      "typographyStrike": false,
+                                      "typographyUppercase": false,
+                                      "typographyLowercase": false
+                                    }
+                                  }
+                                ],
+                                "_id": "mLMcT95c34RF",
+                                "marginType": "ungrouped",
+                                "margin": 0,
+                                "tempMargin": 0,
+                                "marginSuffix": "px",
+                                "tempMarginSuffix": "px",
+                                "marginTop": 10,
+                                "tempMarginTop": 0,
+                                "marginTopSuffix": "px",
+                                "tempMarginTopSuffix": "px",
+                                "marginRight": 150,
+                                "tempMarginRight": 150,
+                                "marginRightSuffix": "px",
+                                "tempMarginRightSuffix": "px",
+                                "marginBottom": 10,
+                                "tempMarginBottom": 0,
+                                "marginBottomSuffix": "px",
+                                "tempMarginBottomSuffix": "px",
+                                "marginLeft": 0,
+                                "tempMarginLeft": 0,
+                                "marginLeftSuffix": "px",
+                                "tempMarginLeftSuffix": "px"
+                              }
+                            }
+                          ],
+                          "_id": "dCLLmKM_aN1D",
+                          "verticalAlign": "center"
+                        }
+                      },
+                      {
+                        "type": "Column2",
+                        "value": {
+                          "_styles": ["column"],
+                          "items": [
+                            {
+                              "type": "Wrapper2",
+                              "value": {
+                                "_styles": ["wrapper", "wrapper--third-party"],
+                                "items": [
+                                  {
+                                    "type": "ThirdParty",
+                                    "value": {
+                                      "thirdPartyId": "Brizy.ThirdParty.Image",
+                                      "_id": "uBv0ewXV5aMO",
+                                      "imageSrc": "https://test-beta1.b-cdn.net/media/original/d03-Color-2-1/image.jpg"
+                                    }
+                                  }
+                                ],
+                                "_id": "lLGEjQH4p59h",
+                                "horizontalAlign": "center"
+                              }
+                            }
+                          ],
+                          "_id": "gh9WiFJFld0b"
+                        }
+                      }
+                    ],
+                    "_id": "kK5ajzLnzP7g"
+                  }
+                }
+              ],
+              "paddingType": "ungrouped",
+              "padding": 75,
+              "tempPadding": 0,
+              "paddingSuffix": "px",
+              "tempPaddingSuffix": "px",
+              "paddingTop": 100,
+              "tempPaddingTop": 100,
+              "paddingTopSuffix": "px",
+              "tempPaddingTopSuffix": "px",
+              "paddingRight": 0,
+              "tempPaddingRight": 0,
+              "paddingRightSuffix": "px",
+              "tempPaddingRightSuffix": "px",
+              "paddingBottom": 100,
+              "tempPaddingBottom": 100,
+              "paddingBottomSuffix": "px",
+              "tempPaddingBottomSuffix": "px",
+              "paddingLeft": 0,
+              "tempPaddingLeft": 0,
+              "paddingLeftSuffix": "px",
+              "tempPaddingLeftSuffix": "px"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "block2",
+    "data": {
+      "blockId": "2",
+      "type": "Section2",
+      "value": {
+        "items": [
+          {
+            "type": "Section2Item",
+            "value": {
+              "items": [
+                {
+                  "type": "Wrapper2",
+                  "value": {
+                    "_styles": ["wrapper", "wrapper--third-party"],
+                    "items": [
+                      {
+                        "type": "ThirdParty",
+                        "value": {
+                          "thirdPartyId": "Brizy.ThirdParty.Text",
+                          "_id": "dZRxcjFiWAj6",
+                          "text": "The Art Of The Smile",
+                          "tabsState": "normal",
+                          "colorHex": "#1C1C1C",
+                          "colorOpacity": 1,
+                          "colorPalette": "",
+                          "tempColorOpacity": 1,
+                          "tempColorPalette": "",
+                          "typographyFontStyle": "",
+                          "typographyFontFamily": "overpass",
+                          "typographyFontFamilyType": "google",
+                          "typographyFontSize": 36,
+                          "typographyFontSizeSuffix": "px",
+                          "typographyFontWeight": 700,
+                          "typographyLetterSpacing": -1.5,
+                          "typographyLineHeight": 1.3,
+                          "typographyVariableFontWeight": 400,
+                          "typographyFontWidth": 100,
+                          "typographyFontSoftness": 0,
+                          "typographyBold": false,
+                          "typographyItalic": false,
+                          "typographyUnderline": false,
+                          "typographyStrike": false,
+                          "typographyUppercase": false,
+                          "typographyLowercase": false
+                        }
+                      }
+                    ],
+                    "_id": "cMju3lwnp9Ch",
+                    "horizontalAlign": "center"
+                  }
+                },
+                {
+                  "type": "Wrapper2",
+                  "value": {
+                    "_styles": ["wrapper", "wrapper--third-party"],
+                    "items": [
+                      {
+                        "type": "ThirdParty",
+                        "value": {
+                          "thirdPartyId": "Brizy.ThirdParty.Text",
+                          "_id": "k2nrF5boCN5y",
+                          "text": "Long years ago, you have to wear two sets of eye glasses, then doctors discovered the lens at the bifocal eye-glasses, then recently they do the same thing.",
+                          "tabsState": "normal",
+                          "colorHex": "#666666",
+                          "colorOpacity": 1,
+                          "colorPalette": "",
+                          "tempColorOpacity": 1,
+                          "tempColorPalette": "",
+                          "typographyFontStyle": "",
+                          "typographyFontFamily": "overpass",
+                          "typographyFontFamilyType": "google",
+                          "typographyFontSize": 17,
+                          "typographyFontSizeSuffix": "px",
+                          "typographyFontWeight": 400,
+                          "typographyLetterSpacing": 0,
+                          "typographyLineHeight": 1.8,
+                          "typographyVariableFontWeight": 400,
+                          "typographyFontWidth": 100,
+                          "typographyFontSoftness": 0,
+                          "typographyBold": false,
+                          "typographyItalic": false,
+                          "typographyUnderline": false,
+                          "typographyStrike": false,
+                          "typographyUppercase": false,
+                          "typographyLowercase": false
+                        }
+                      }
+                    ],
+                    "_id": "xND4cE6neQQU",
+                    "horizontalAlign": "center"
+                  }
+                },
+                {
+                  "type": "Wrapper2",
+                  "value": {
+                    "_styles": ["wrapper", "wrapper--third-party"],
+                    "items": [
+                      {
+                        "type": "ThirdParty",
+                        "value": {
+                          "thirdPartyId": "Brizy.ThirdParty.Image",
+                          "_id": "wWWGXMuM0jGb",
+                          "imageSrc": "https://test-beta1.b-cdn.net/media/iW=5000&iH=any/d03-Img-Girl-Pool/image.jpg"
+                        }
+                      }
+                    ],
+                    "_id": "ziy7Mmg5XyWk",
+                    "marginType": "ungrouped",
+                    "margin": 0,
+                    "tempMargin": 0,
+                    "marginSuffix": "px",
+                    "tempMarginSuffix": "px",
+                    "marginTop": 40,
+                    "tempMarginTop": 40,
+                    "marginTopSuffix": "px",
+                    "tempMarginTopSuffix": "px",
+                    "marginRight": 0,
+                    "tempMarginRight": 0,
+                    "marginRightSuffix": "px",
+                    "tempMarginRightSuffix": "px",
+                    "marginBottom": 10,
+                    "tempMarginBottom": 0,
+                    "marginBottomSuffix": "px",
+                    "tempMarginBottomSuffix": "px",
+                    "marginLeft": 0,
+                    "tempMarginLeft": 0,
+                    "marginLeftSuffix": "px",
+                    "tempMarginLeftSuffix": "px"
+                  }
+                }
+              ],
+              "_id": "hdpF0Q6airkz",
+              "tabsState": "normal",
+              "containerSize": 60,
+              "containerSizeSuffix": "%"
+            }
+          }
+        ],
+        "_id": "dpEFG1MthF_3"
+      }
+    }
+  },
+  {
+    "id": "block3",
+    "data": {
+      "blockId": "3",
+      "type": "Section2",
+      "value": {
+        "items": [
+          {
+            "type": "Section2Item",
+            "value": {
+              "items": [
+                {
+                  "type": "Row2",
+                  "value": {
+                    "_styles": ["row", "hide-row-borders", "padding-0"],
+                    "items": [
+                      {
+                        "type": "Column2",
+                        "value": {
+                          "_styles": ["column"],
+                          "items": [
+                            {
+                              "type": "Wrapper2",
+                              "value": {
+                                "_styles": ["wrapper", "wrapper--third-party"],
+                                "items": [
+                                  {
+                                    "type": "ThirdParty",
+                                    "value": {
+                                      "thirdPartyId": "Brizy.ThirdParty.Text",
+                                      "_id": "cIdk2S1VwSSo",
+                                      "text": "Download the mobile app or subscribe to our newsletter to stay in touch ",
+                                      "typographyFontStyle": "",
+                                      "typographyFontFamily": "overpass",
+                                      "typographyFontFamilyType": "google",
+                                      "typographyFontSize": 36,
+                                      "typographyFontSizeSuffix": "px",
+                                      "typographyFontWeight": 700,
+                                      "typographyLetterSpacing": -1.5,
+                                      "typographyLineHeight": 1.3,
+                                      "typographyVariableFontWeight": 400,
+                                      "typographyFontWidth": 100,
+                                      "typographyFontSoftness": 0,
+                                      "typographyBold": false,
+                                      "typographyItalic": false,
+                                      "typographyUnderline": false,
+                                      "typographyStrike": false,
+                                      "typographyUppercase": false,
+                                      "typographyLowercase": false,
+                                      "tabsState": "normal",
+                                      "colorHex": "#1C1C1C",
+                                      "colorOpacity": 1,
+                                      "colorPalette": "",
+                                      "tempColorOpacity": 1,
+                                      "tempColorPalette": ""
+                                    }
+                                  }
+                                ],
+                                "_id": "dAu1Zk48fKtD",
+                                "horizontalAlign": "left",
+                                "marginType": "ungrouped",
+                                "margin": 0,
+                                "tempMargin": 0,
+                                "marginSuffix": "px",
+                                "tempMarginSuffix": "px",
+                                "marginTop": 10,
+                                "tempMarginTop": 0,
+                                "marginTopSuffix": "px",
+                                "tempMarginTopSuffix": "px",
+                                "marginRight": 100,
+                                "tempMarginRight": 100,
+                                "marginRightSuffix": "px",
+                                "tempMarginRightSuffix": "px",
+                                "marginBottom": 10,
+                                "tempMarginBottom": 0,
+                                "marginBottomSuffix": "px",
+                                "tempMarginBottomSuffix": "px",
+                                "marginLeft": 0,
+                                "tempMarginLeft": 0,
+                                "marginLeftSuffix": "px",
+                                "tempMarginLeftSuffix": "px"
+                              }
+                            },
+                            {
+                              "type": "Wrapper2",
+                              "value": {
+                                "_styles": ["wrapper", "wrapper--third-party"],
+                                "items": [
+                                  {
+                                    "type": "ThirdParty",
+                                    "value": {
+                                      "thirdPartyId": "Brizy.ThirdParty.Text",
+                                      "_id": "hVRlOO3INMv7",
+                                      "text": "Don’t worry only good and interesting stuff. Spam free only",
+                                      "tabsState": "normal",
+                                      "colorHex": "#666666",
+                                      "colorOpacity": 1,
+                                      "colorPalette": "",
+                                      "tempColorOpacity": 1,
+                                      "tempColorPalette": "",
+                                      "typographyFontStyle": "",
+                                      "typographyFontFamily": "overpass",
+                                      "typographyFontFamilyType": "google",
+                                      "typographyFontSize": 17,
+                                      "typographyFontSizeSuffix": "px",
+                                      "typographyFontWeight": 400,
+                                      "typographyLetterSpacing": 0,
+                                      "typographyLineHeight": 1.8,
+                                      "typographyVariableFontWeight": 400,
+                                      "typographyFontWidth": 100,
+                                      "typographyFontSoftness": 0,
+                                      "typographyBold": false,
+                                      "typographyItalic": false,
+                                      "typographyUnderline": false,
+                                      "typographyStrike": false,
+                                      "typographyUppercase": false,
+                                      "typographyLowercase": false
+                                    }
+                                  }
+                                ],
+                                "_id": "lFe8usnpVCXh",
+                                "horizontalAlign": "left",
+                                "marginType": "ungrouped",
+                                "margin": 0,
+                                "tempMargin": 0,
+                                "marginSuffix": "px",
+                                "tempMarginSuffix": "px",
+                                "marginTop": 100,
+                                "tempMarginTop": 100,
+                                "marginTopSuffix": "px",
+                                "tempMarginTopSuffix": "px",
+                                "marginRight": 0,
+                                "tempMarginRight": 0,
+                                "marginRightSuffix": "px",
+                                "tempMarginRightSuffix": "px",
+                                "marginBottom": 10,
+                                "tempMarginBottom": 0,
+                                "marginBottomSuffix": "px",
+                                "tempMarginBottomSuffix": "px",
+                                "marginLeft": 0,
+                                "tempMarginLeft": 0,
+                                "marginLeftSuffix": "px",
+                                "tempMarginLeftSuffix": "px"
+                              }
+                            }
+                          ],
+                          "_id": "zko7Y6xJqP94",
+                          "verticalAlign": "center"
+                        }
+                      },
+                      {
+                        "type": "Column2",
+                        "value": {
+                          "_styles": ["column"],
+                          "items": [
+                            {
+                              "type": "Wrapper2",
+                              "value": {
+                                "_styles": ["wrapper", "wrapper--third-party"],
+                                "items": [
+                                  {
+                                    "type": "ThirdParty",
+                                    "value": {
+                                      "thirdPartyId": "Brizy.ThirdParty.Image",
+                                      "_id": "aWMYpT8S8toQ",
+                                      "imageSrc": "https://test-beta1.b-cdn.net/media/original/d03-phones-mock/image.png"
+                                    }
+                                  }
+                                ],
+                                "_id": "pllywz_XliCr"
+                              }
+                            }
+                          ],
+                          "_id": "knPIEuDNEcad"
+                        }
+                      }
+                    ],
+                    "_id": "dxtX6xveuVEM"
+                  }
+                }
+              ],
+              "_id": "b3Mj9k3hqAqh",
+              "paddingType": "ungrouped",
+              "padding": 75,
+              "tempPadding": 0,
+              "paddingSuffix": "px",
+              "tempPaddingSuffix": "px",
+              "paddingTop": 100,
+              "tempPaddingTop": 100,
+              "paddingTopSuffix": "px",
+              "tempPaddingTopSuffix": "px",
+              "paddingRight": 0,
+              "tempPaddingRight": 0,
+              "paddingRightSuffix": "px",
+              "tempPaddingRightSuffix": "px",
+              "paddingBottom": 100,
+              "tempPaddingBottom": 100,
+              "paddingBottomSuffix": "px",
+              "tempPaddingBottomSuffix": "px",
+              "paddingLeft": 0,
+              "tempPaddingLeft": 0,
+              "paddingLeftSuffix": "px",
+              "tempPaddingLeftSuffix": "px",
+              "tabsState": "normal",
+              "bgColorType": "solid",
+              "tempBgColorType": "solid",
+              "bgColorHex": "#B8E6E1",
+              "bgColorOpacity": 1,
+              "tempBgColorOpacity": 1,
+              "bgColorPalette": "",
+              "tempBgColorPalette": "",
+              "gradientColorHex": "#009900",
+              "gradientColorOpacity": 1,
+              "tempGradientColorOpacity": 1,
+              "gradientColorPalette": "",
+              "tempGradientColorPalette": "",
+              "gradientType": "linear",
+              "gradientStartPointer": 0,
+              "gradientFinishPointer": 100,
+              "gradientActivePointer": "startPointer",
+              "gradientLinearDegree": 90,
+              "gradientRadialDegree": 90
+            }
+          }
+        ],
+        "_id": "f87gblMVUtfi"
+      }
+    }
+  },
+  {
+    "id": "block4",
+    "data": {
+      "blockId": "3",
+      "type": "Section2",
+      "value": {
+        "items": [
+          {
+            "type": "Section2Item",
+            "value": {
+              "items": [
+                {
+                  "type": "Wrapper2",
+                  "value": {
+                    "_styles": ["wrapper", "wrapper--third-party"],
+                    "items": [
+                      {
+                        "type": "ThirdParty",
+                        "value": {
+                          "thirdPartyId": "Brizy.ThirdParty.Text",
+                          "_id": "aaT1EpuPGBV2",
+                          "text": "3 Smart Reasons Why You Should Consider Paying For Your Traffic",
+                          "tabsState": "normal",
+                          "colorHex": "#1C1C1C",
+                          "colorOpacity": 1,
+                          "colorPalette": "",
+                          "tempColorOpacity": 1,
+                          "tempColorPalette": "",
+                          "typographyFontStyle": "",
+                          "typographyFontFamily": "lato",
+                          "typographyFontFamilyType": "google",
+                          "typographyFontSize": 36,
+                          "typographyFontSizeSuffix": "px",
+                          "typographyFontWeight": 700,
+                          "typographyLetterSpacing": -1.5,
+                          "typographyLineHeight": 1.3,
+                          "typographyVariableFontWeight": 400,
+                          "typographyFontWidth": 100,
+                          "typographyFontSoftness": 0,
+                          "typographyBold": false,
+                          "typographyItalic": false,
+                          "typographyUnderline": false,
+                          "typographyStrike": false,
+                          "typographyUppercase": false,
+                          "typographyLowercase": false
+                        }
+                      }
+                    ],
+                    "_id": "lVtOZWqQ53Mm",
+                    "marginType": "ungrouped",
+                    "margin": 0,
+                    "tempMargin": 0,
+                    "marginSuffix": "px",
+                    "tempMarginSuffix": "px",
+                    "marginTop": 10,
+                    "tempMarginTop": 0,
+                    "marginTopSuffix": "px",
+                    "tempMarginTopSuffix": "px",
+                    "marginRight": 120,
+                    "tempMarginRight": 120,
+                    "marginRightSuffix": "px",
+                    "tempMarginRightSuffix": "px",
+                    "marginBottom": 10,
+                    "tempMarginBottom": 0,
+                    "marginBottomSuffix": "px",
+                    "tempMarginBottomSuffix": "px",
+                    "marginLeft": 120,
+                    "tempMarginLeft": 120,
+                    "marginLeftSuffix": "px",
+                    "tempMarginLeftSuffix": "px",
+                    "paddingType": "ungrouped",
+                    "padding": 0,
+                    "tempPadding": 0,
+                    "paddingSuffix": "px",
+                    "tempPaddingSuffix": "px",
+                    "paddingTop": 0,
+                    "tempPaddingTop": 0,
+                    "paddingTopSuffix": "px",
+                    "tempPaddingTopSuffix": "px",
+                    "paddingRight": 100,
+                    "tempPaddingRight": 100,
+                    "paddingRightSuffix": "px",
+                    "tempPaddingRightSuffix": "px",
+                    "paddingBottom": 0,
+                    "tempPaddingBottom": 0,
+                    "paddingBottomSuffix": "px",
+                    "tempPaddingBottomSuffix": "px",
+                    "paddingLeft": 100,
+                    "tempPaddingLeft": 100,
+                    "paddingLeftSuffix": "px",
+                    "tempPaddingLeftSuffix": "px",
+                    "horizontalAlign": "center"
+                  }
+                },
+                {
+                  "type": "Wrapper2",
+                  "value": {
+                    "_styles": ["wrapper", "wrapper--third-party"],
+                    "items": [
+                      {
+                        "type": "ThirdParty",
+                        "value": {
+                          "thirdPartyId": "Brizy.ThirdParty.Button",
+                          "_id": "nkdOWyUzFd7e",
+                          "tabsState": "normal",
+                          "backgroundColorBgColorType": "solid",
+                          "tempBackgroundColorBgColorType": "solid",
+                          "backgroundColorBgColorHex": "#ca0508",
+                          "backgroundColorBgColorOpacity": 1,
+                          "tempBackgroundColorBgColorOpacity": 1,
+                          "backgroundColorBgColorPalette": "",
+                          "tempBackgroundColorBgColorPalette": "",
+                          "backgroundColorGradientColorHex": "#000000",
+                          "backgroundColorGradientColorOpacity": 1,
+                          "tempBackgroundColorGradientColorOpacity": 1,
+                          "backgroundColorGradientColorPalette": "",
+                          "tempBackgroundColorGradientColorPalette": "",
+                          "backgroundColorGradientType": "linear",
+                          "backgroundColorGradientStartPointer": 0,
+                          "backgroundColorGradientFinishPointer": 100,
+                          "backgroundColorGradientActivePointer": "finishPointer",
+                          "backgroundColorGradientLinearDegree": 0,
+                          "backgroundColorGradientRadialDegree": 0,
+                          "colorHex": "#ffffff",
+                          "colorOpacity": 1,
+                          "colorPalette": "",
+                          "tempColorOpacity": 1,
+                          "tempColorPalette": "",
+                          "text": "View Wireframes",
+                          "typographyFontStyle": "",
+                          "typographyFontFamily": "overpass",
+                          "typographyFontFamilyType": "google",
+                          "typographyFontSize": 15,
+                          "typographyFontSizeSuffix": "px",
+                          "typographyFontWeight": 700,
+                          "typographyLetterSpacing": 0,
+                          "typographyLineHeight": 1.6,
+                          "typographyVariableFontWeight": 400,
+                          "typographyFontWidth": 100,
+                          "typographyFontSoftness": 0,
+                          "typographyBold": false,
+                          "typographyItalic": false,
+                          "typographyUnderline": false,
+                          "typographyStrike": false,
+                          "typographyUppercase": false,
+                          "typographyLowercase": false,
+                          "height": 74,
+                          "heightSuffix": "px",
+                          "customWidth": 247,
+                          "customWidthSuffix": "px"
+                        }
+                      }
+                    ],
+                    "_id": "vcY5uQfBkAO4",
+                    "paddingType": "grouped",
+                    "padding": 0,
+                    "tempPadding": 0,
+                    "paddingSuffix": "px",
+                    "tempPaddingSuffix": "px",
+                    "paddingTop": 19,
+                    "tempPaddingTop": 19,
+                    "paddingTopSuffix": "px",
+                    "tempPaddingTopSuffix": "px",
+                    "paddingRight": 44,
+                    "tempPaddingRight": 44,
+                    "paddingRightSuffix": "px",
+                    "tempPaddingRightSuffix": "px",
+                    "paddingBottom": 44,
+                    "tempPaddingBottom": 44,
+                    "paddingBottomSuffix": "px",
+                    "tempPaddingBottomSuffix": "px",
+                    "paddingLeft": 19,
+                    "tempPaddingLeft": 19,
+                    "paddingLeftSuffix": "px",
+                    "tempPaddingLeftSuffix": "px",
+                    "marginType": "ungrouped",
+                    "margin": 0,
+                    "tempMargin": 0,
+                    "marginSuffix": "px",
+                    "tempMarginSuffix": "px",
+                    "marginTop": 30,
+                    "tempMarginTop": 30,
+                    "marginTopSuffix": "px",
+                    "tempMarginTopSuffix": "px",
+                    "marginRight": 0,
+                    "tempMarginRight": 0,
+                    "marginRightSuffix": "px",
+                    "tempMarginRightSuffix": "px",
+                    "marginBottom": 10,
+                    "tempMarginBottom": 0,
+                    "marginBottomSuffix": "px",
+                    "tempMarginBottomSuffix": "px",
+                    "marginLeft": 0,
+                    "tempMarginLeft": 0,
+                    "marginLeftSuffix": "px",
+                    "tempMarginLeftSuffix": "px"
+                  }
+                },
+                {
+                  "type": "Wrapper2",
+                  "value": {
+                    "_styles": ["wrapper", "wrapper--third-party"],
+                    "items": [
+                      {
+                        "type": "ThirdParty",
+                        "value": {
+                          "thirdPartyId": "Brizy.ThirdParty.Image",
+                          "_id": "iuUrDQyG05g3",
+                          "imageSrc": "https://test-beta1.b-cdn.net/media/original/d09-3-Phones-mock/image.png"
+                        }
+                      }
+                    ],
+                    "_id": "i2I0A1_2kSkl",
+                    "marginType": "ungrouped",
+                    "margin": 0,
+                    "tempMargin": 0,
+                    "marginSuffix": "px",
+                    "tempMarginSuffix": "px",
+                    "marginTop": 70,
+                    "tempMarginTop": 70,
+                    "marginTopSuffix": "px",
+                    "tempMarginTopSuffix": "px",
+                    "marginRight": 0,
+                    "tempMarginRight": 0,
+                    "marginRightSuffix": "px",
+                    "tempMarginRightSuffix": "px",
+                    "marginBottom": 10,
+                    "tempMarginBottom": 0,
+                    "marginBottomSuffix": "px",
+                    "tempMarginBottomSuffix": "px",
+                    "marginLeft": 0,
+                    "tempMarginLeft": 0,
+                    "marginLeftSuffix": "px",
+                    "tempMarginLeftSuffix": "px"
+                  }
+                }
+              ],
+              "_id": "iQMoLIQr8YX4",
+              "paddingType": "ungrouped",
+              "padding": 75,
+              "tempPadding": 0,
+              "paddingSuffix": "px",
+              "tempPaddingSuffix": "px",
+              "paddingTop": 100,
+              "tempPaddingTop": 100,
+              "paddingTopSuffix": "px",
+              "tempPaddingTopSuffix": "px",
+              "paddingRight": 0,
+              "tempPaddingRight": 0,
+              "paddingRightSuffix": "px",
+              "tempPaddingRightSuffix": "px",
+              "paddingBottom": 0,
+              "tempPaddingBottom": 0,
+              "paddingBottomSuffix": "px",
+              "tempPaddingBottomSuffix": "px",
+              "paddingLeft": 0,
+              "tempPaddingLeft": 0,
+              "paddingLeftSuffix": "px",
+              "tempPaddingLeftSuffix": "px",
+              "tabsState": "normal",
+              "bgColorType": "solid",
+              "tempBgColorType": "solid",
+              "bgColorHex": "#B8E6E1",
+              "bgColorOpacity": 1,
+              "tempBgColorOpacity": 1,
+              "bgColorPalette": "",
+              "tempBgColorPalette": "",
+              "gradientColorHex": "#009900",
+              "gradientColorOpacity": 1,
+              "tempGradientColorOpacity": 1,
+              "gradientColorPalette": "",
+              "tempGradientColorPalette": "",
+              "gradientType": "linear",
+              "gradientStartPointer": 0,
+              "gradientFinishPointer": 100,
+              "gradientActivePointer": "startPointer",
+              "gradientLinearDegree": 90,
+              "gradientRadialDegree": 90
+            }
+          }
+        ],
+        "_id": "yP08XdpUbV_z"
+      }
+    }
+  }
+]
