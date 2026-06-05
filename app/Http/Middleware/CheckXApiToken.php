@@ -22,6 +22,13 @@ class CheckXApiToken
 
         $userToken = UserToken::with('user')->where('token', $token)->first();
 
+        if (!$userToken || !$userToken->user) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Token tidak valid atau pengguna tidak ditemukan.'
+            ], 401);
+        }
+
         auth()->login($userToken->user);
         return $next($request);
     }
