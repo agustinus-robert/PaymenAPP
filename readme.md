@@ -9,6 +9,7 @@ Sistem pembayaran sederhana antar pengguna berbasis Laravel dengan fitur transfe
 - Composer
 - Laragon / Laravel Herd / MAMP (disarankan)
 - Hindari XAMPP
+- Koneksi internet karena semua link package menggunakan cdn
 
 ## Instalasi
 
