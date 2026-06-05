@@ -7,7 +7,7 @@ Sistem pembayaran sederhana antar pengguna berbasis Laravel dengan fitur transfe
 - PHP 8.3+
 - MySQL
 - Composer
-- Laragon / Laravel Herd / MAMP (disarankan)
+- Laragon / Laravel Herd / MAMP
 - Hindari XAMPP
 - Koneksi internet karena semua link package menggunakan cdn
 
