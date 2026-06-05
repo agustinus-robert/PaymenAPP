@@ -13,22 +13,22 @@ Sistem pembayaran sederhana antar pengguna berbasis Laravel dengan fitur transfe
 ## Instalasi
 
 1. Clone repository lalu masuk folder project:
-   git clone <repo-url>
-   cd mini-payment-app
+    - git clone https://github.com/agustinus-robert/PaymenAPP payment
+    - cd payment
 
 2. Install dependency:
-   composer install
+    - composer install
 
 3. Copy file environment:
-   cp .env.example .env
+    - cp .env.example .env
 
 4. Setup database di .env:
-   DB_DATABASE=payment
-   DB_USERNAME=root
-   DB_PASSWORD=
+    - DB_DATABASE=payment
+    - DB_USERNAME=root
+    - DB_PASSWORD=
 
 5. Jalankan installer aplikasi (auto migrate + auto generate key + auto seeder):
-   php artisan payment:install
+    - php artisan payment:install
 
 Command ini otomatis menjalankan migration dan seeder, jadi tidak perlu php artisan migrate, generate:key, dan db:seed.
 
