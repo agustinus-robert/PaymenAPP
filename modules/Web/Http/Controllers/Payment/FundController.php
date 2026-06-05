@@ -28,8 +28,11 @@ class FundController extends Controller {
 
     public function index(Request $request)
     {
-        $activities = UserBalance::with(['logs'])
+        $activities = UserBalance::with(['logs' => function($query) {
+                $query->latest();
+             }])
             ->where('user_balance_id', auth()->id())
+            ->whereHas('logs')
             ->latest()
             ->get();
 

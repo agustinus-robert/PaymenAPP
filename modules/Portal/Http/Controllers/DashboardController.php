@@ -15,8 +15,11 @@ class DashboardController extends Controller
         $user = $request->user();
         $userId = $user->id;
 
-        $balanceQuery = UserBalance::with(['logs', 'user'])
-            ->where('user_balance_id', $userId);
+        $balanceQuery = UserBalance::with(['logs' => function($query) {
+                $query->latest();
+             }, 'user'])
+            ->where('user_balance_id', auth()->id())
+            ->whereHas('logs');
 
         $transactionQuery = PayTransaction::with(['logs', 'sender', 'receiver'])
             ->where(function($q) use ($userId) {
